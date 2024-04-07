@@ -11,7 +11,7 @@ char doc[] = "Num-Guesser is a random number guessing game written in C.\vOnly o
 /* Empty string that would contain command usage information. */
 const char args_doc[] = "";
 /* Program version string to be printed with -v or --version */
-const char *argp_program_version = "Num-Guesser v1.2";
+const char *argp_program_version = "Num-Guesser v1.21";
 /* Email address to report bugs to. Attached to the bottom of the help document. */
 const char *argp_program_bug_address = "<xatra169@gmail.com>";
 
@@ -72,8 +72,8 @@ error_t parse_opt(int key, char *arg, struct argp_state *state)
       else
          exit(ret_val = diffChoose());
       break;
-   case 'S':
    case 'r':
+   case 's':
       if (attempts == 0.5)
          fprintf(stdout, "Process exited with status code %d\n", ret_val);
       else
