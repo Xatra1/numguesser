@@ -11,9 +11,9 @@ char doc[] = "Num-Guesser is a random number guessing game written in C.\vOnly o
 /* Empty string that would contain command usage information. */
 const char args_doc[] = "";
 /* Program version string to be printed with -v or --version */
-const char *argp_program_version = "Num-Guesser v1.21";
+const char *argp_program_version = "Num-Guesser v1.22";
 /* Email address to report bugs to. Attached to the bottom of the help document. */
-const char *argp_program_bug_address = "<xatra169@gmail.com>";
+const char *argp_program_bug_address = "https://github.com/Xatra1/num-guesser";
 
 /* A structure of possible arguments that can be passed to the program to allow for different outcomes. */
 const struct argp_option options[] = {
