@@ -1,4 +1,3 @@
-#include "funcs.h" //Function declaration list
 #include <argp.h>  //Command line argument parsing and handling
 #include <stdio.h>
 #include <stdlib.h> //rand() func used for RNG
