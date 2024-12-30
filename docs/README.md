@@ -1,3 +1,3 @@
 ## Building from Source
-To compile, open a terminal in the same directory as the makefile and run ``make``  
-This will create an executable in ``src/deb/usr/local/bin/`` named ``numguesser`` and attempt to automatically create and install a Debian package containing the compiled ``numguesser`` and any necessary control info.
+To compile, open a terminal in the same directory as the makefile and run ``make``.
+This will create an executable named ``numguesser``.
